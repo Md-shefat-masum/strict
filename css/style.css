@@ -1,0 +1,505 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li,
+ol {
+    list-style-type: none;
+}
+
+img {
+    border: 0;
+}
+
+.contentwrapper {
+    width: 100%;
+}
+
+.content {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*header part start*/
+
+.headerbg {
+    background: #f6f9f9;
+}
+
+.logo {
+    float: left;
+    width: 160px;
+}
+
+.logo img {
+    display: block;
+    padding: 35px 0px;
+}
+
+.nav {
+    float: left;
+    width: 980px;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 30px 0px;
+    font-family: 'lato', sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #222222;
+    text-transform: capitalize;
+    border-bottom: 4px solid #f6f9f9;
+    transition: all linear .3s;
+}
+
+.nav ul li a:hover {
+    color: #15a4fa;
+    border-bottom: 4px solid #15a4fa;
+}
+
+/*header part end*/
+
+/* banner part start */
+
+.bannerbg {
+    background-image: url(../images/banner/Strict.png);
+    display: block;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bannerbody {
+    padding: 150px 0px 10px 0px;
+    text-align: center;
+}
+
+.bannerbody h2 {
+    font-size: 120px;
+    line-height: 47px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 75px;
+    transition: all linear .3s;
+}
+
+.bannerbody h2:after {
+    position: absolute;
+    height: 3px;
+    width: 595px;
+    content: '';
+    background-color: #15a4fa;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+
+.bannerbody:hover h2 {
+    text-shadow: 0px 0px 5px rgba(21, 164, 250, .9);
+}
+
+.bannerbody:hover h2:after {
+    width: 695px;
+}
+
+.bannerbody p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 47px;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.bannerbody p span {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 47px;
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.bannerbody > a {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 47px;
+    color: white;
+    padding: 5px 34px;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    margin-bottom: 175px;
+    display: inline-block;
+    transition: all linear .3s;
+    text-transform: capitalize;
+}
+
+.bannerbody > a:hover {
+    background: #15a4fa;
+    border: 1px solid #15a4fa;
+}
+
+.bannerbody p > a > i {
+    color: white;
+    font-size: 35px;
+    line-height: 10px;
+    padding: 20px 0px;
+    display: block;
+    transition: all linear .3s;
+}
+
+.bannerbody p > a:hover i {
+    color: #15a4fa;
+}
+
+/* banner part end */
+
+/** design part start*/
+
+.designbg {}
+
+.designbody {
+    padding-top: 80px;
+}
+
+.commonheading {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #2d3950;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.designbody p {
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/** design part end*/
+
+/*designbottombg start **/
+
+.designbottombg {}
+
+.designbottombody {
+    padding-bottom: 60px;
+}
+
+.iconbody {
+    float: left;
+}
+
+.iconpart {
+    text-align: center;
+    padding: 10px 15px;
+    width: 290px;
+    margin: 5px 30px;
+    transition: all linear .3s;
+}
+
+.iconpart:hover {
+    box-shadow: 0px 0px 5px rgba( 0, 0, 0, .6);
+}
+
+.iconpart .icon {
+    height: 100px;
+    width: 100px;
+    background: #15a4fa;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 33px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+}
+
+.iconpart .icon:after {
+    height: 100%;
+    width: 50%;
+    content: '';
+    background: #48baff;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+
+.icon a i {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+    display: block;
+    padding: 15px;
+}
+
+.iconpart:hover .icon {
+    box-shadow: 0px 0px 5px rgba( 0, 0, 0, .6);
+    color: blue;
+}
+
+.iconpart h4 {
+    color: #2d3950;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 33px;
+    font-weight: 400;
+}
+
+.iconpart p {
+    color: #999999;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+/*designbottombg end **/
+
+/** workpart start */
+
+.workpartbg {
+    background: #f6f9f9;
+    padding: 80px 0px 118px 0px;
+    margin-top: 30px;
+}
+
+.workpartbody {}
+
+.gallerybody {
+    margin-top: 50px;
+}
+
+.workpartbody p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #909090;
+}
+
+.workimage {
+    width: 360px;
+    height: 260px;
+    float: left;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.workimage img {
+    display: block;
+}
+
+.workimage .overlayimage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: rgba(34, 163, 240, 0.8);
+    top: 0;
+    right: 0;
+    text-align: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+
+.workimage:hover .overlayimage {
+    transform: scale(1);
+}
+
+.overlayimage a {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 5%;
+}
+
+.overlayimage a i {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.marginleft {
+    margin-left: 30px;
+}
+
+/** workpart end */
+
+/* footer part start*/
+
+.footerbg {
+    background-image: url(../images/footerbg/Strict.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 110px;
+}
+
+.footerbody .commonheading {
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.footerbody p {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 44px;
+    padding-bottom: 50px;
+}
+
+.footerbody .form {
+    width: 607px;
+    margin: 0 auto;
+}
+
+.footerbody .form input {
+    width: 555px;
+    margin-bottom: 15px;
+    padding: 25px;
+    border: 1px solid #999999;
+    color: #999999;
+    background: #3a4456;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.footerbody .form textarea {
+    width: 555px;
+    height: 111px;
+    margin-bottom: 15px;
+    padding: 25px;
+    border: 1px solid #999999;
+    background: #3a4456;
+    border-radius: 5px;
+    color: #999999;
+    font-size: 15px;
+}
+
+.footerbody .form .checkbox {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footerbody .form label {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    float: left;
+
+}
+
+.footerbody .form button {
+    float: right;
+    padding: 14px 50px;
+    font-size: 18px;
+    color: white;
+    background: inherit;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+.footerbody .form button:hover {
+    background: rgba(21, 164, 250, 0.24);
+}
+
+/* footer part end*/
+
+/*copyright part start */
+
+.copyrightbg {
+    padding: 25px 0px;
+}
+
+.copyrightbody p {
+    font-family: 'Lato', sans-serif;
+    color: #999;
+    font-weight: 400;
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.copyrightbody ul {
+    float: right;
+}
+
+.copyrightbody ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+.copyrightbody ul li a {
+    display: block;
+}
+
+.copyrightbody ul li a i {
+    font-size: 15px;
+    height: 50px;
+    width: 50px;
+    background: #15a4fa;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border-radius: 3px;
+    transition: all linear .3s;
+}
+
+.copyrightbody ul li a:hover i {
+    color: black;
+}
+
+/*copyright part end */
